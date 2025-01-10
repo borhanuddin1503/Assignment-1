@@ -38,6 +38,7 @@ header nav h2{
     display: flex;
     align-items: center;
     gap: 64px;
+    border-radius: 24px;
 }
 .banner_text_content{
     padding-right: 5px;
@@ -53,6 +54,34 @@ header nav h2{
     color: var(--dark);
     font-weight: bold;
     margin: 16px 0 24px 0;
+}
+
+/* pillar section start */
+.pillar_card_wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.pillar_card_wrapper .pillar_card{
+    padding: 24px;
+    border: 2px solid #9e9c9c27;
+    border-radius: 16px;
+}
+.pillar_card img{
+    margin-bottom: 24px;
+    width: 64px;
+}
+.pillar_card .card_title{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--dark);
+    margin-bottom: 12px;
+}
+
+.pillar_card .card_description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 1.5;
 }
 
 
@@ -112,4 +141,16 @@ header nav h2{
     background: transparent;
     border-color: var(--button_color);
     color: var(--button_color);
+}
+
+section{
+    width: 1280px;
+    margin: 80px auto 0;
+}
+
+.section_heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--dark);
+    margin-bottom: 24px;
 }
