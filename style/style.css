@@ -168,7 +168,7 @@ header nav h2{
 .qoute{
     margin-top: 32px;
     padding: 48px 24px;
-    border: 2px solid rgba(14, 14, 14, 0.15);
+    border: 1px solid rgba(14, 14, 14, 0.15);
     background: url(../assets/quote-bg.png),#fff;
     border-radius: 16px;
     background-repeat: no-repeat;
@@ -227,8 +227,87 @@ header nav h2{
 }
 
 
+/* donate section start */
+.donate{
+    text-align: center;
+    padding: 0 88px;
+}
+.donate_wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.donate_card{
+    padding: 40px;
+    background: white;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    transition: .3s;
+    cursor: pointer;
+}
+.donate_ammount{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 0;
+}
+.second_donate_card{
+    background-color: var(--primary);
+}
+.donate_card:hover{
+    background-color: var(--primary);
+}
+.second_donate_card:hover{
+    background-color: var(--white);
+}
+.donate form{
+    padding: 0 36px;
+}
+.donate input{
+    margin: 32px 0;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: var(--white);
+}
 
+/* subscribe section start */
+.subscribe{
+    background:var(--primary);
+    border-radius: 24px;
+    padding: 80px;
+    text-align: center;
+}
+.subscribe .section_heading{
+    margin-bottom: 16px;
+}
+.subscribe .section_description{
+    margin-bottom: 24px;
+}
+.subscribe_form{
+    width: 750px;
+    display: flex;
+    margin: 0 auto;
+}
+.subscribe_form input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 18px 40px;
+    border-radius: 8px 0 0 8px;
+}
+.subscribe_form button{
+    border-radius: 0 8px 8px 0;
+}
 
+.subscribe_subtitle{
+    margin-top: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
 
 
 
@@ -293,6 +372,7 @@ section{
     font-weight: bold;
     color: var(--dark);
     margin-bottom: 24px;
+    margin-top: 0;
 }
 .section_description{
     margin-bottom: 32px;
